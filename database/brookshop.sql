@@ -55,6 +55,8 @@ CREATE TABLE IF NOT EXISTS `items` (
   
 ) ENGINE=InnoDB AUTO_INCREMENT=4 DEFAULT CHARSET=latin1 COLLATE=latin1_general_ci;
 
+
+
 -- --------------------------------------------------------
 
 --
@@ -95,12 +97,6 @@ CREATE TABLE IF NOT EXISTS `orders` (
 --
 -- Dumping data for table `orders`
 --
-
-INSERT INTO `orders` (`orderid`, `customerid`, `amount`, `date`, `ship_name`, `ship_address`, `ship_city`, `ship_zip_code`, `ship_country`) VALUES
-(1, 1, '60.00', '2015-12-03 13:30:12', 'a', 'a', 'a', 'a', 'a'),
-(2, 2, '60.00', '2015-12-03 13:31:12', 'b', 'b', 'b', 'b', 'b'),
-(3, 3, '20.00', '2015-12-03 19:34:21', 'test', '123 test', '12121', 'test', 'test'),
-(4, 1, '20.00', '2015-12-04 10:19:14', 'a', 'a', 'a', 'a', 'a');
 
 -- --------------------------------------------------------
 
